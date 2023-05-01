@@ -1,0 +1,32 @@
+h1 {text-align: center;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid rgb(66, 144, 106);
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+td.slot {
+  background-color: white;
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin-right: 10px;
+}
