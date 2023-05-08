@@ -8,7 +8,7 @@ class Schedule {
   }
 
   void dropCourse(String code) {
-    courses.dropWhere((course) => course.code == code);
+    courses.removeWhere((course) => course.code == code);
   }
 
   void printSchedule() {
