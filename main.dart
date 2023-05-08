@@ -7,7 +7,7 @@ void main() {
 
   while (true) {
     print("\n1. Add course");
-    print("2. Remove course");
+    print("2. Drop course");
     print("3. View schedule");
     print("4. Exit");
     stdout.write("Select an option: ");
@@ -32,9 +32,9 @@ void main() {
       stdout.write("Enter course code to remove: ");
       String code = stdin.readLineSync()!.trim();
 
-      schedule.removeCourse(code);
+      schedule.dropCourse(code);
 
-      print("Course removed successfully!");
+      print("Course dropped successfully!");
     } else if (option == "3") {
       schedule.printSchedule();
     } else if (option == "4") {
